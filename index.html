@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Added a link to our external stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
+    <title>CrystalsCollector Game</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row row justify-content-center">
+        <div class="col-6 instructionParagraph header">
+          <p>Crystal Collector</p>
+        </div>
+        <div class="col-12 breakLine"></div>
+        <div class="col-6 instructionParagraph">
+          <p>You will be giving a random number at the start of the game.</p>
+          <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+          <p>You win the game by matching your total score to random number, you lose the game if your total score grows above the random number.</p>
+          <p>The value of each crystal is hidden from you until you click on it.</p>
+          <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+        <div class="col-12 breakLine"></div>
+        <div class="col-6">
+          <div class="row justify-content-center">
+            <div class="col-5 text-block-left">
+              <div class="win">You win: 0 time.</div>
+              <div class="loss">You loss: 0 time.</div>
+            </div>
+            <div class="col-5 text-block-right">
+              <h2 class="announce"></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 breakLine"></div>
+        <div class="col-6">
+          <div class="row justify-content-center">
+            <div class="col-5 text-block-left">
+              <div>Target Numbers</div>
+            </div>
+            <div class="col-5 text-block-right">
+              <div class="totalScore">Your total score is</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12"></div>
+        <div class="col-6">
+          <div class="row justify-content-center">
+            <div class="col-5 text-block-left">
+              <div class="targetNumberPrint"></div>
+            </div>
+            <div class="col-5 text-block-right">
+              <div class="result"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 breakLine"></div>
+        <div class="col-6">
+          <div class="row justify-content-around">
+            <div class="col-3">
+              <div class="imageIcon imageIcon-blue btn btn-outline-info"><img src="assets/images/blue-crystal.png"></div>
+            </div>
+            <div class="col-3">
+              <div class="imageIcon imageIcon-red btn btn-outline-info"><img src="assets/images/red-crystal.png"></div>
+            </div>
+            <div class="col-3">
+              <div class="imageIcon imageIcon-green btn btn-outline-info"><img src="assets/images/green-crystal.png"></div>
+            </div>
+            <div class="col-3">
+              <div class="imageIcon imageIcon-yellow btn btn-outline-info"><img src="assets/images/yellow-crystal.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div>Target Numbers</div> -->
+    <!-- <div class="targetNumberPrint"></div> -->
+    <!-- <div class="imageIcon imageIcon-blue"><img src="assets/images/blue-crystal.png"></div> -->
+    <!-- <div class="imageIcon imageIcon-red"><img src="assets/images/red-crystal.png"></div> -->
+    <!-- <div class="imageIcon imageIcon-green"><img src="assets/images/green-crystal.png"></div> -->
+    <!-- <div class="imageIcon imageIcon-yellow"><img src="assets/images/yellow-crystal.png"></div> -->
+    <!-- <div class="announce"></div> -->
+    <!-- <div class="win">You win: 0 time.</div> -->
+    <!-- <div class="loss">You loss: 0 time.</div> -->
+    <!-- <div class="totalScore">Your total score is</div> -->
+    <!-- <div class="result"></div> -->
+
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  </body>
+</html>
