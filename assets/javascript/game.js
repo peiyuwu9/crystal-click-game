@@ -14,7 +14,7 @@ $(document).ready(function() {
       $(".targetNumberPrint").text(targetNumber);
 
       for (var i=0; i<4; i++) {
-        var randomNumber = Math.floor(Math.random() * 13);
+        var randomNumber = Math.floor(Math.random() * 12) + 1;
         if (crystalNumber.indexOf(randomNumber) === -1) {
           crystalNumber.push(randomNumber); 
         }
