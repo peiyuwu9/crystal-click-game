@@ -1,19 +1,20 @@
 # unit-4-game
+A lttle click game that players will click crystal icons to retrieve values in order to hit the targat number.
 
-Pseudocode
+# Motivation
+Create a game to practice HTML, CSS, Javascript and jQuery language.
 
-1. Create a div for target number, and create 4 crystal icons.
+# Technologies used and why
+[HTML] is used as backbone of the content.
+[CSS] is used to modify the layout.
+[Javasctipt] is used to create random number and values, as well as judging game result.
+[jQuery] is used to manipulate the HTML content.
 
-2. Create 1 and 4 random numbers. Also, a empty variable for score.
+# How to use
+1. Once page loaded, you will see a target number.
 
-3. Push 1 numbers as attribute value of target number and print the number on screen.
+2. Click any crystal icons to know what values they are carrying.
 
-4. Pushi 4 numbers as attribute value of crystal icon numbers.
+3. Try to hit the target number to win. If total score is over target number, you loss.
 
-5. Input crysatal icons.
-
-6. When users click crystal icon, add the value to the score.
-
-7. If score reach target number, users win +1 and repeat step 1 and empyt score.
-
-8. if over target number, users loss +1 plus +1 and repeat step 1 and empyt score.
+4. Either you win or loss, bower will reassign target number and values on the icons.

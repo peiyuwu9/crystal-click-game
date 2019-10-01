@@ -1,4 +1,8 @@
+// 1. Make sure Javascript and jQuery won't be run until page load is complete.
+
 $(document).ready(function() {
+
+    // 2. Create variables for numbers we need. 
 
     var targetNumber = 0;
     var crystalNumber = [];
@@ -6,6 +10,9 @@ $(document).ready(function() {
     var scoreTotal = 0;
     var win = 0;
     var loss = 0;
+
+
+    // 3. Create function for random target number and icon values generation. Meanwhile, load the random numbers to the image icon.
 
     function randomNumberGenerate() {
 
@@ -71,7 +78,13 @@ $(document).ready(function() {
     //var result = $("<div>");
     //result.addClass("result");
 
+    // 4. Run the random number function.
+
     randomNumberGenerate();
+
+    // 5. When users click the icon, browser returns value as score. // 6. scores will add up as total scores.
+    // 7. If total score meet target number, users win +1 and reload random number and values.
+    // 8. If total score is over target number, users loss +1 and reload random number and values.
 
     $(".imageIcon").on("click",function(){
       
