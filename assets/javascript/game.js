@@ -5,6 +5,7 @@ $(document).ready(function() {
     // 2. Create variables for numbers we need. 
 
     var targetNumber = 0;
+    var numberArry = [1 ,2 ,3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
     var crystalNumber = [];
     var score = 0;
     var scoreTotal = 0;
@@ -14,21 +15,29 @@ $(document).ready(function() {
 
     // 3. Create function for random target number and icon values generation. Meanwhile, load the random numbers to the image icon.
 
+
+    function shuffle (array) {
+      for (var j,x, i=array.length; i; j=parseInt(Math.random()*i), x = array[--i], array[i] = array[j], array[j] = x);
+    }
+
     function randomNumberGenerate() {
+
+      scoreTotal = 0;
 
       targetNumber = Math.floor(Math.random() * 102) + 19;
       console.log(targetNumber);
       $(".targetNumberPrint").text(targetNumber);
 
+      crystalNumber = [];
+      shuffle(numberArry);
+      console.log(numberArry);
+
       for (var i=0; i<4; i++) {
-        var randomNumber = Math.floor(Math.random() * 12) + 1;
-        if (crystalNumber.indexOf(randomNumber) === -1) {
-          crystalNumber.push(randomNumber); 
-        }
-        else {
-          i--;
-        } 
+        crystalNumber.push(numberArry[i]); 
       }
+
+      numberArry[Math.floor(Math.random() * 11)]
+
 
       console.log(crystalNumber);
 
