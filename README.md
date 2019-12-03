@@ -5,10 +5,10 @@ A lttle click game that players will click crystal icons to retrieve values in o
 Create a game to practice HTML, CSS, Javascript and jQuery language.
 
 ## Technologies used and why
-**HTML** is used as backbone of the content.
-**CSS** is used to modify the layout.
-**Javascript** is used to create random number and values, as well as judging game result.
-**jQuery** is used to manipulate the HTML content.
+**HTML** is used as backbone of the content.  
+**CSS** is used to modify the layout.  
+**Javascript** is used to create random number and values, as well as judging game result.  
+**jQuery** is used to manipulate the HTML content.  
 
 ## How to use
 1. Once page loaded, you will see a target number.
