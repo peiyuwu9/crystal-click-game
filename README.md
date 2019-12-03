@@ -1,16 +1,16 @@
-# unit-4-game
+# Crystal Click Game
 A lttle click game that players will click crystal icons to retrieve values in order to hit the targat number.
 
-# Motivation
+## Motivation
 Create a game to practice HTML, CSS, Javascript and jQuery language.
 
-# Technologies used and why
-[HTML] is used as backbone of the content.
-[CSS] is used to modify the layout.
-[Javasctipt] is used to create random number and values, as well as judging game result.
-[jQuery] is used to manipulate the HTML content.
+## Technologies used and why
+**HTML** is used as backbone of the content.
+**CSS** is used to modify the layout.
+**Javascript** is used to create random number and values, as well as judging game result.
+**jQuery** is used to manipulate the HTML content.
 
-# How to use
+## How to use
 1. Once page loaded, you will see a target number.
 
 2. Click any crystal icons to know what values they are carrying.
